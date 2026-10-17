@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.swift text
+*.c text
+*.h text
+*.sh text
+*.md text
+*.png binary
+*.jpg binary
+*.gif binary

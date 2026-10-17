@@ -1,0 +1,4 @@
+// Copy to Config/Local.xcconfig (git-ignored) and fill in your own values.
+// DEVELOPMENT_TEAM is your Apple Developer team ID; PA_BUNDLE_ID must be unique to you.
+DEVELOPMENT_TEAM = YOUR_TEAM_ID
+PA_BUNDLE_ID = com.example.phoneagent

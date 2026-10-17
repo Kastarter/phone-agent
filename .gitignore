@@ -1,0 +1,47 @@
+# macOS / Xcode
+.DS_Store
+**/xcuserdata/
+*.xcuserstate
+DerivedData/
+/build/
+*.xcarchive
+*.ipa
+*.dSYM/
+
+# Personal configuration and credentials
+.env
+.env.*
+!.env.example
+*.local.xcconfig
+Secrets.*
+Credentials.*
+*.p8
+*.p12
+*.pem
+*.key
+*.mobileprovision
+
+# ESP-IDF generated files
+/firmware/build*/
+/firmware/managed_components/
+/firmware/sdkconfig
+/firmware/sdkconfig.*
+!/firmware/sdkconfig.defaults
+!/firmware/sdkconfig.defaults.*
+/firmware/dependencies.lock
+/firmware/prebuilt/
+
+# Temporary checks and local recordings
+*.log
+*.tmp
+__pycache__/
+*.pyc
+/.cache/
+/recordings/
+/exports/
+/local-data/
+build/
+PhoneAgent/Resources/BedrockCredentials.json
+PhoneAgent/Resources/OpenRouterKey.txt
+PhoneAgent/Resources/VoiceAgent.json
+/Config/Local.xcconfig

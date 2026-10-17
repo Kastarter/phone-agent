@@ -1,0 +1,6 @@
+// Build settings shared by the app and its Live Activity extension.
+// Your signing team and bundle id go in Config/Local.xcconfig (git-ignored; copy Local.xcconfig.example).
+DEVELOPMENT_TEAM =
+PA_BUNDLE_ID = dev.example.phoneagent
+
+#include? "Local.xcconfig"

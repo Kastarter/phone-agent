@@ -1,0 +1,23 @@
+menu "AgentMouse prototype"
+    config AGENTMOUSE_DEMO_BATTERY_LEVEL
+        int "Demo battery level (not an ADC measurement)"
+        range 0 100
+        default 100
+        help
+            Battery Service value for this USB-powered development prototype.
+            Replace the constant with real battery measurement before battery use.
+    config AGENTMOUSE_STATUS_RGB
+        bool "Enable onboard WS2812 task RGB"
+        depends on IDF_TARGET_ESP32S3
+        default y
+    config AGENTMOUSE_RGB_GPIO
+        int "WS2812 data GPIO"
+        depends on AGENTMOUSE_STATUS_RGB
+        range 0 48
+        default 48
+    config AGENTMOUSE_RGB_BRIGHTNESS
+        int "Peak LED brightness (1-255)"
+        depends on AGENTMOUSE_STATUS_RGB
+        range 2 255
+        default 48
+endmenu

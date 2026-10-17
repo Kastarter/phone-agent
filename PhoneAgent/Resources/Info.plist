@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Phone Agent</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Connects to your AgentMouse accessory to turn agent actions into Bluetooth mouse and keyboard input.</string>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>LaunchBackground</string>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>screen-capture</string>
+		<string>bluetooth-central</string>
+		<string>audio</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Used for on-device transcription, recording, and realtime voice that you start. Saving raw audio or sending live audio each requires separate confirmation.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Turns what you say into editable text, using on-device recognition whenever possible.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Shows a preview once you start a camera chat. Asking a question sends the selected frame; if you separately turn on continuous observation, sampled frames are sent periodically to the AI service you authorized.</string>
+	<key>NSSupportsLiveActivities</key>
+	<true/>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>dev.agentmouse.task</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>phoneagent</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

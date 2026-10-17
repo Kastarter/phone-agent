@@ -1,0 +1,127 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Start the current task with ${applicationName}": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start the current task with ${applicationName}"
+          }
+        }
+      }
+    },
+    "Run my phone task with ${applicationName}": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Run my phone task with ${applicationName}"
+          }
+        }
+      }
+    },
+    "Run a new task with ${applicationName}": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Run a new task with ${applicationName}"
+          }
+        }
+      }
+    },
+    "Stop the task in ${applicationName}": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop the task in ${applicationName}"
+          }
+        }
+      }
+    },
+    "Stop ${applicationName}": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop ${applicationName}"
+          }
+        }
+      }
+    },
+    "Pause the task in ${applicationName}": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pause the task in ${applicationName}"
+          }
+        }
+      }
+    },
+    "Take over the task in ${applicationName}": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Take over the task in ${applicationName}"
+          }
+        }
+      }
+    },
+    "Resume the task in ${applicationName}": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resume the task in ${applicationName}"
+          }
+        }
+      }
+    },
+    "Add instructions in ${applicationName}": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add instructions in ${applicationName}"
+          }
+        }
+      }
+    },
+    "Update the task in ${applicationName}": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Update the task in ${applicationName}"
+          }
+        }
+      }
+    },
+    "Talk to ${applicationName}": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Talk to ${applicationName}"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

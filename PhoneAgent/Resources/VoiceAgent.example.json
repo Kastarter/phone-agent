@@ -1,0 +1,9 @@
+{
+  "tokenURL": "https://voice.example.com/api/tokens/client",
+  "agentName": "your-agent-name",
+  "apiKey": "YOUR_API_KEY",
+  "apiSecret": "YOUR_API_SECRET",
+  "roomMetadata": {
+    "intro_message": "I'm on the line. What should I do on your phone?"
+  }
+}
